@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "es2015",
+    "moduleResolution": "node",
+    "target": "es2015",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["*", "src/*"],
+      "test/*": ["test/*"]
+    },
+    "lib": ["es2017"],
+    "checkJs": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["./type-definitions/"]
+  }
+}

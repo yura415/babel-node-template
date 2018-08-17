@@ -1,0 +1,5 @@
+{
+	"project-name": "TMP",
+	"log-level": "trace",
+	"max-log-file-size-mb": 10
+}
