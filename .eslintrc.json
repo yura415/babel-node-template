@@ -58,11 +58,8 @@
 	},
 	"settings": {
 		"import/resolver": {
-			"babel-module": {
-			}
+			"babel-module": {}
 		},
-		"import/ignore": [
-			"src/db/client/mongodb"
-		]
+		"import/ignore": []
 	}
 }
