@@ -1,7 +1,6 @@
 apps:
   - script: bin/daemon.js
     name: 'changeme'
-    node_args: '--max-old-space-size=8192'
     exec_mode: fork
     env:
       NODE_ENV: development
